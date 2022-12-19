@@ -2,15 +2,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-
-	background-color: black;
 }
 
 ul,ol,menu {
 	list-style: none;
 }
 
-main {
+body {
 	background-color: black;
 }
 
@@ -23,7 +21,7 @@ main {
 	margin: 5px;
 }
 
-.head-container span, i {
+.head-container span {
 	color: white;
 	font-family: sans-serif;
 	font-size: 14px;
@@ -31,6 +29,41 @@ main {
 	padding: 3px;
 	border-radius: 2px;
 }
+
+.head-container i {
+	color: white;
+
+	background-color: rgba(255,255,255,0.4);
+	padding: 3px;
+	border-radius: 2px;
+	font-size: 14px;
+
+	text-align: center;
+}
+
+.foot-container {
+	width: 2000px;
+	
+	background-color: #222222;
+	padding: 30px;
+
+	color: white;
+	font-size: 20px;
+	
+	display: flex;
+	justify-content: space-between;
+}
+
+.lista {
+	display: flex;
+	gap: 30px;
+
+}
+
+
+
+/*************************************/
+
 
 .debug .container {
 	border: 3px dotted blue;
