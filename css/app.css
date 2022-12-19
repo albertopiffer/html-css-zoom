@@ -14,27 +14,44 @@ ul,ol,menu {
 
 
 
-
+.debug .container {
+	border: 3px dotted blue;
+	background-color: black;
+}
 
 .debug .row {
     border: 3px dotted red;
-	padding: 5px 15px;
 	display: flex;
 
 	justify-content: center;
 
-	gap: 5px;
+	gap: 6px;
 	margin: 50px;
 	width: 2000px;
 	margin: 80px 0;
 
 	flex-wrap: wrap;
+
 }
 
 
 .debug .card {
-    border: 3px solid black;
-	padding: 5px 15px;
+    color: white;
+		
 	min-width: 254px;
 	min-height: 150px;
+
+	position: relative;
+}
+
+.card span {
+	padding: 6px;
+	
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	font-family: sans-serif;
 }
